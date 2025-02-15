@@ -1,0 +1,1 @@
+Secret management (SOPS/Sealed Secrets)
