@@ -1,0 +1,1 @@
+Base resources (e.g., Flux CD, policies)
