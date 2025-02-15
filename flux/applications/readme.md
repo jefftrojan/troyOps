@@ -1,0 +1,1 @@
+Flux application manifests
