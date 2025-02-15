@@ -62,6 +62,7 @@ Ensure that you have the following tools installed on your local machine:
 - SigNoz
 - Kyverno/OPA/Gatekeeper
 - [GitHub Actions/GitLab CI](depending on your CI platform)
+- Golang
 
 3. **Deploy to Kubernetes:**
 
