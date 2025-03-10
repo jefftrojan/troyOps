@@ -1,0 +1,9 @@
+apiVersion: v2
+name: troyops
+description: A Helm chart for TroyOps GitOps-driven Kubernetes deployment tool
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+maintainers:
+  - name: jefftrojan
+    email: jeff@example.com 

@@ -1,0 +1,40 @@
+# Default values for TroyOps
+replicaCount: 1
+
+image:
+  repository: nginx
+  tag: latest
+  pullPolicy: IfNotPresent
+
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: ClusterIP
+  port: 80
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+flux:
+  enabled: true
+  namespace: flux-system
+
+kyverno:
+  enabled: true
+  namespace: kyverno
+
+sealedSecrets:
+  enabled: true
+  namespace: kube-system 
