@@ -1,0 +1,13 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: troyops-app
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  path: ./kustomize/overlays/dev
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: troyops-repo
+  validation: client 

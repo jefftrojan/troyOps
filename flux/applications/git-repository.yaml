@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: troyops-repo
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  url: https://github.com/jefftrojan/troyops
+  ref:
+    branch: main 
