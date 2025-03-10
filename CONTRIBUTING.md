@@ -23,7 +23,7 @@ Thank you for your interest in contributing to TroyOps! This document provides g
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [jeff@example.com](mailto:jeff@example.com).
+This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [jeff@boolean.engineer](mailto:jeff@boolean.engineer).
 
 ## Getting Started
 
@@ -153,4 +153,4 @@ Examples:
 
 - coming soon[Todo]
 
-Thank you for contributing to TroyOps! 
+Thank you for contributing to TroyOps!
