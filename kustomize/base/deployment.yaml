@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: troyops-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: troyops-app
+  template:
+    metadata:
+      labels:
+        app: troyops-app
+    spec:
+      containers:
+      - name: app
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            cpu: "0.5"
+            memory: "512Mi"
+          requests:
+            cpu: "0.1"
+            memory: "128Mi" 

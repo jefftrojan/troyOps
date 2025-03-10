@@ -1,0 +1,17 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - ../../base
+
+namespace: dev
+
+commonLabels:
+  environment: dev
+
+patchesStrategicMerge:
+  - deployment-patch.yaml
+
+replicas:
+  - name: troyops-app
+    count: 1 
